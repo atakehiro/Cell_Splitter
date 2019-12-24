@@ -4,6 +4,8 @@ p_xy = 1; % miroco meter per pixel % 位置情報をpixel情報に直すために使用
 img2D_flag= 1; % 2次元画像では１
 area_flg = 1; %area_id変数(area.matに格納される)を取り出すか(最初は１にする)
 csv_filename = 'Results.csv'; %imageJ のmeasureのresultを想定、6から8列目に,X,Y,Sliceがあるようにする
+%% 関数ファイルへパスを通す
+addpath('function')
 %% csvファイルの読み取り
 data1 = readmatrix(csv_filename);
 if size(data1, 2) < 7
