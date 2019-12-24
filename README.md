@@ -8,7 +8,7 @@ MATLAB R2019a  or later
 ## preparation of input files
 Two data files are needed, binary image (as tif file) and cordinate information of the cells (as csv file) for input data.
 
-In csv file, only columns from 6 to 8 (6 to 7 for 2D image) are used. Cordinate information must be there.
+In csv file, only columns 6 to 8 (6 to 7 for 2D image) are used. Cordinate information must be there.
 
 I recommend using the U-Net segmentation of ImageJ plugin (https://lmb.informatik.uni-freiburg.de/resources/opensource/unet/) to get the binary image. 
 
