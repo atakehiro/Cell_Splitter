@@ -1,7 +1,7 @@
 # Cell_Splitter
 Extract regions of the cells from binary image(2D or 3D) and coordinates of the cells
 
-<img src="doc/abstract.jpg" width="1000" align="below">
+<img src="doc/abs.png" width="1000" align="below">
 
 ## Dependencies
 MATLAB R2019a  or later
