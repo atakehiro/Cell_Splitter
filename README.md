@@ -18,7 +18,7 @@ I recommend using ImageJ point tool ROI and Measure command (or U-Net detection 
 
 二値化されたtif画像ファイルと細胞の位置を示したcsvファイルの2つが必要。csvファイルのうち6から8列目のみを使用する。座標情報がそこ(6から8列目)に来るようにする。
 
-二画像の取得にはImageJ pluginのU-Netの使用がお勧めである。また、細胞の座標情報の取得にはImageJのPoint ROI tool と Measureコマンドがお勧めである。
+二画像の取得にはImageJ pluginのU-Netの使用を勧める。また、細胞の座標情報の取得にはImageJのPoint ROI tool と Measureコマンドを勧める。
 
 
 ## Usage
