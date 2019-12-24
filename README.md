@@ -1,5 +1,5 @@
 # Cell_Splitter
-Extract regions of the cells from binary image(2D or 3D) and coordinate point of the center of the cells
+Extract regions of the cells from binary image(2D or 3D) and coordinates of the cells
 
 ## Dependencies
 MATLAB R2019a  or later
