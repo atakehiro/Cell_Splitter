@@ -5,20 +5,18 @@ Extract regions of the cells from binary image(2D or 3D) and coordinate point of
 MATLAB R2019a  or later
 
 
-## preparation
+## preparation of input files
 Two data files are needed, binary image (as tif file) and cordinate information of the cells (as csv file) for input data.
 
 In csv file, only columns from 6 to 8 (6 to 7 for 2D image) are used. Cordinate information must be there.
-
-二値化されたtif画像ファイルと細胞の位置を示したcsvファイルの2つが必要。csvファイルのうち6から8列目のみを使用する。座標情報がそこ(6から8列目)に来るようにする。
 
 I recommend using the U-Net segmentation of ImageJ plugin (https://lmb.informatik.uni-freiburg.de/resources/opensource/unet/) to get the binary image. 
 
 I recommend using ImageJ point tool ROI and Measure command (or U-Net detection of Fiji plugin) to get the cordinate information of the cells.
 
-二画像の取得にはImageJ pluginのU-Netの使用がお勧めです。
+二値化されたtif画像ファイルと細胞の位置を示したcsvファイルの2つが必要。csvファイルのうち6から8列目のみを使用する。座標情報がそこ(6から8列目)に来るようにする。
 
-また、細胞の座標情報の取得にはImageJのPoint ROI tool と Measureコマンドがお勧めです。
+二画像の取得にはImageJ pluginのU-Netの使用がお勧めです。また、細胞の座標情報の取得にはImageJのPoint ROI tool と Measureコマンドがお勧めです。
 
 
 ## Usage
