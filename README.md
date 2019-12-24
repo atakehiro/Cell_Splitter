@@ -16,7 +16,9 @@ I recommend using the U-Net segmentation of ImageJ plugin (https://lmb.informati
 
 I recommend using ImageJ point tool ROI and Measure command (or U-Net detection of Fiji plugin) to get the cordinate information of the cells.
 
-二画像の取得にはImageJ pluginのU-Netの使用がお勧めです。また、細胞の座標情報の取得にはImageJのPoint ROI tool と Measureコマンドがお勧めです。
+二画像の取得にはImageJ pluginのU-Netの使用がお勧めです。
+
+また、細胞の座標情報の取得にはImageJのPoint ROI tool と Measureコマンドがお勧めです。
 
 
 ## Usage
