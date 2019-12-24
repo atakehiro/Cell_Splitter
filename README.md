@@ -5,7 +5,7 @@ Extract regions of the cells from binary image(2D or 3D) and coordinate point of
 MATLAB R2019a  or later
 
 
-## reparation of input files
+## Preparation of input files
 Two data files are needed, binary image (as tif file) and cordinate information of the cells (as csv file) for input data.
 
 In csv file, only columns 6 to 8 (6 to 7 for 2D image) are used. Cordinate information must be there.
