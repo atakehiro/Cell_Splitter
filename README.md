@@ -2,10 +2,12 @@
 Extract regions of the cells from binary image(2D or 3D) and coordinate point of the center of the cells
 
 ## Dependencies
-MATLAB R2019a and later
+MATLAB R2019a  or later
 
 
-## RUN
+## Usage
+The 
+
 Open "Get_ROI.m" and run the code (F5 or RUN). Select the image (tif file).
 Image must be the 8 or 16 bit grascale tif image.
 
@@ -25,8 +27,8 @@ Get line→クリックした2点の間の軸索探索
 赤：元画像　　緑：ワークスペース　　青：取得したROI　をそれぞれ表している。
 
 ## Demos
-You can use the "demo_image_2D.tif" or "demo_image_16bit.tif" for demos.
-"demo_image_8bit.tif" または "demo_image_16bit.tif"をデモとして使用できる。
+You can use the "demo_image_2D.tif" and "Results.csv" for demos.
+"demo_image_2D.tif" と"Results.csv"をデモとして使用できる。
 
 
 ## Author
