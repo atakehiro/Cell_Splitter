@@ -3,6 +3,8 @@ Extract regions of the cells from binary image(2D or 3D) and coordinates of the 
 
 <img src="doc/abst.png" width="1000" align="below">
 
+<img src="doc/result.tif" width="1000" align="below">
+
 ## Dependencies
 MATLAB R2019a  or later
 
