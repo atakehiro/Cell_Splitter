@@ -40,6 +40,12 @@ You can use the "demo_image_2D.tif" and "Results.csv" for demos.
 
 "demo_image_2D.tif" と"Results.csv"をデモとして使用できる。
 
+## Post processing
+結果は16bit画像「CELL_<ファイル名>」で出力されます。値が同じピクセルが同じ細胞領域とされた場所です。
+
+imageJで読み込んで、LookUp tableを「Fire」に変えるとわかりやすいです。
+
+結果で得られた2値画像のskeltonizeにはskelton3Dがお勧めです。(https://jp.mathworks.com/matlabcentral/fileexchange/43400-skeleton3d)
 
 ## Author
 Takehiro Ajioka 
