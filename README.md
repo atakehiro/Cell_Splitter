@@ -7,6 +7,8 @@ Extract regions of the cells from binary image(2D or 3D) and coordinates of the 
 
 <img src="doc/demo.png" width="1000" align="below">
 
+参考：http://system-medicine.blog.jp/archives/6819354.html
+
 ## Dependencies
 MATLAB R2019a  or later
 
